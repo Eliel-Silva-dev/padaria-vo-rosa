@@ -1,29 +1,35 @@
 import Link from 'next/link';
 import style from './style.min.module.css';
-import { BiSolidCameraMovie } from 'react-icons/bi';
-import HandleSearch from '../buttons/HandleSearch';
+import { FaCookieBite } from 'react-icons/fa';
 
 const NavBar = () => {
   return (
-    <nav className={style.navbar}>
-      <div id={style.logo}>
-        <BiSolidCameraMovie />
+    <nav id={style.navbar}>
+      <div>
+        <FaCookieBite />
         <h2 className={style.logo_title}>
-          <Link href={'/'}>Cinepolis</Link>
+          <Link href={'/'}>Nome do projeto</Link>
         </h2>
-        <ul id={style.menu}>
-          <li>
-            <Link href={'/'}>Inicio</Link>
-          </li>
-          <li>
-            <Link href={'/moviesGenre'}>Filmes</Link>
-          </li>
-          <li className={style.block}>
-            <Link href={'/'}>Series</Link>
-          </li>
-        </ul>
       </div>
-      <HandleSearch />
+      <ul className={style.menu}>
+        <li>
+          <Link href={'/'}>Inicio</Link>
+        </li>
+        <li>
+          <Link href={'/'}>menu 01</Link>
+        </li>
+        <li>
+          <Link href={'/'}>menu 02</Link>
+        </li>
+        <li>
+          <Link href={'/'}>menu 03</Link>
+        </li>
+      </ul>
+      <div className={style.others}>
+        <button>
+          <a href="/">rcurso adicional</a>
+        </button>
+      </div>
     </nav>
   );
 };
