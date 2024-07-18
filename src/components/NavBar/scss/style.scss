@@ -1,4 +1,4 @@
-.navbar {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,75 +13,41 @@
   right: 0;
   z-index: 1;
 
-  #logo {
+  #logo_title {
     display: flex;
     align-items: center;
-    justify-content: center;
+    min-width: 200px;
 
     svg {
-      font-size: 4.5rem;
+      font-size: 3rem;
       color: var(--secondary_color);
     }
-    .logo_title a {
+
+    a {
       color: var(--secondary_color);
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-left: 5px;
       text-decoration: none;
-    }
-    .logo_title a:hover {
-      color: var(--text_color);
-    }
-  }
-  #menu {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-
-    .block a {
-      cursor: not-allowed;
-    }
-    a {
-      color: var(--text_color);
-      text-decoration: none;
-      padding: 10px;
-      font-size: 1.7rem;
 
       &:hover {
-        color: var(--secondary_color);
+        color: var(--text_color);
       }
     }
   }
-
-  #search {
+  .menu {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-
-    input {
-      color: var(--primary_color);
-      font-size: 1.5rem;
-      border: none;
-      border-radius: 5px;
-      padding: 3px;
-      margin-left: 5px;
-      width: 0px;
-      height: 25px;
-      cursor: none;
-      transition: all 0.5s ease-in;
-
-      &:focus {
-        outline: none;
-      }
-      &::placeholder {
-        color: var(--secondary_color);
-        font-size: 1.5rem;
-      }
-      &.active {
-        width: 150px;
-        cursor: pointer;
-      }
+    align-items: center;
+    a {
+      padding: 5px;
+      font-size: 1.7rem;
+      font-weight: 600;
     }
+  }
+
+  .others {
+    min-width: 100px;
+    text-align: right;
   }
 }

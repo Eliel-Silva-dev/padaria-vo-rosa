@@ -5,10 +5,10 @@ import { FaCookieBite } from 'react-icons/fa';
 const NavBar = () => {
   return (
     <nav id={style.navbar}>
-      <div>
+      <div id={style.logo_title}>
         <FaCookieBite />
-        <h2 className={style.logo_title}>
-          <Link href={'/'}>Nome do projeto</Link>
+        <h2 >
+          <Link href={'/'}>Padaria Vó Rosa</Link>
         </h2>
       </div>
       <ul className={style.menu}>

@@ -9,7 +9,7 @@ html {
 :root {
   --primary_color: #f3f5f7;
   --secondary_color: #efb5b2;
-  --text_color: #331914;
+  --text_color: #281410;
   --hover: #f59cc4;
 }
 
@@ -20,4 +20,14 @@ body {
 main {
   min-height: 100vh;
   margin-top: 40px;
+}
+a {
+  text-decoration: none;
+  color: var(--text_color);
+}
+a:hover {
+  color: var(--secondary_color);
+}
+li{
+  list-style: none;
 }
