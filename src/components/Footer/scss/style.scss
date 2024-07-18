@@ -5,11 +5,17 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-top: 2px solid var(--secondary_color);
+  border-top: 2px solid var(--hover);
+  height: 60px;
+  
   a {
     text-decoration: none;
     font-size: 1.4rem;
+    font-weight: 600;
     padding: 5px;
-    color: var(--secondary_color);
+    color: var(--hover);
+  }
+  p {
+    font-size: 1.4rem;
   }
 }
