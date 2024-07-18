@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const MenuDesk = () => {
   return (
-    <ul className={style.menu}>
+    <ul className={style.menu_mob}>
       <li>
         <Link href={'/'}>Inicio</Link>
       </li>
