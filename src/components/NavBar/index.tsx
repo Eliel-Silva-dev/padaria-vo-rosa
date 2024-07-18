@@ -8,9 +8,10 @@ import MenuMob from '../menu/MenuMob';
 import { useState, useEffect } from 'react';
 import style from './style.min.module.css';
 
+
 const NavBar = () => {
   const [windowWidth, setWindowWidth] = useState({
-    wWindow: window.innerWidth,
+    wWindow: 0
   });
 
   const detectSize = () => {
@@ -26,9 +27,9 @@ const NavBar = () => {
   return (
     <nav id={style.navbar}>
       <Logo />
-      {windowWidth.wWindow> 600 ? (<MenuDesk />) : (<MenuMob />)}
+      {windowWidth.wWindow> 768 ? (<MenuDesk />) : (<MenuMob />)}
 
-      {windowWidth.wWindow > 760 && (<PlusRec />)}
+      {windowWidth.wWindow > 768 && (<PlusRec />)}
     </nav>
   );
 };
