@@ -1,6 +1,19 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import Lgpd from '../Lgpd';
 import style from './style.min.module.css';
 
 const Footer = () => {
+  const [localStorage, setLocalStorage] = useState('');
+
+  useEffect(() => {
+    const lsContent = window.localStorage.getItem('lgpd');
+    if (lsContent) {
+      setLocalStorage(`${lsContent}`);
+    }
+  }, [localStorage]);
+
   return (
     <footer className={style.footer}>
       <p>
@@ -12,7 +25,12 @@ const Footer = () => {
           Termos de uso
         </a>
       </p>
-      <p>Desenvolvido por Hydrah Tecnologia - todos os direitos reservados</p>
+      <p>
+        {' '}
+        &#9400 Desenvolvido por Hydrah Tecnologia - todos os direitos reservados
+      </p>
+
+      {!localStorage && <Lgpd />}
     </footer>
   );
 };
