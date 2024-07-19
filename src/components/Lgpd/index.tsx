@@ -18,6 +18,7 @@ const Lgpd = () => {
           <a
             href="assets/Politica-de-Privacidade.pdf"
             title="polica de privacidade"
+            target="_blank"
           >
             Política de Privacidade
           </a>

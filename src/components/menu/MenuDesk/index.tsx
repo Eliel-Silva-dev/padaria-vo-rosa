@@ -9,13 +9,13 @@ const MenuDesk = () => {
         <Link href={'/'}>Inicio</Link>
       </li>
       <li>
-        <Link href={'/'}>menu 01</Link>
+        <Link href={'/ofertas'}>Ofertas</Link>
       </li>
       <li>
-        <Link href={'/'}>menu 02</Link>
+        <Link href={'/pedidos'}>Pedidos</Link>
       </li>
       <li>
-        <Link href={'/'}>menu 03</Link>
+        <Link href={'/sobre'}>Sobre</Link>
       </li>
     </ul>
   );
