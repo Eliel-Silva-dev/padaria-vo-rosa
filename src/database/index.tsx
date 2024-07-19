@@ -1,7 +1,7 @@
 const about = {
   title: 'Vó Rosa bolos e Sobremesas',
   type: 'Padaria & Conveniência',
-  adrress:
+  address:
     'R. Maria C. de Sá, 22 - Loja A - Parque Progresso (Nova Veneza), Campinas - SP, 13180-180',
   imgHome: 'img/imgAbout.jpg',
   imgAbout: 'img/imgHome.jpg',
@@ -11,31 +11,31 @@ const about = {
   email: 'bolosvorosa@outlook.com',
   operation: [
     {
-      dayWeenk: 'Segunda-feira',
+      dayWeek: 'Segunda-feira',
       openingHours: '06:30 - 18:00',
     },
     {
-      dayWeenk: 'Terça-feira',
+      dayWeek: 'Terça-feira',
       openingHours: '06:30 - 18:00',
     },
     {
-      dayWeenk: 'Quarta-feira',
+      dayWeek: 'Quarta-feira',
       openingHours: '06:30 - 18:00',
     },
     {
-      dayWeenk: 'Quinta-feira',
+      dayWeek: 'Quinta-feira',
       openingHours: '06:30 - 18:00',
     },
     {
-      dayWeenk: 'Sexta-feira',
+      dayWeek: 'Sexta-feira',
       openingHours: '06:30 - 18:00',
     },
     {
-      dayWeenk: 'Sabado',
+      dayWeek: 'Sábado',
       openingHours: '07:00 - 18:00',
     },
     {
-      dayWeenk: 'Domingo',
+      dayWeek: 'Domingo',
       openingHours: '06:30–12:00',
     },
   ],
@@ -66,7 +66,7 @@ const about = {
 export type Tabout = {
   title: string;
   type: string;
-  adrress: string;
+  address: string;
   imgHome: string;
   imgAbout: string;
   imgMap: string;
@@ -74,7 +74,7 @@ export type Tabout = {
   facebook: string;
   email: string;
   operation: {
-    dayWeenk: string;
+    dayWeek: string;
     openingHours: string;
   }[];
   paymentMethods: {
@@ -118,7 +118,7 @@ const promoValentinesDay = [
       '1 bombom ferrero rocher',
       '1 cookie artesanal',
       '1 brownie',
-      '1 cappucino em pó 100g',
+      '1 capucino em pó 100g',
       '1 saquinho de torradas artesanais',
       '1 bolo baby com cobertura (sabor disponível na loja)',
       'biscoitinhos, com a frase Te Amo',
@@ -140,7 +140,7 @@ const promoValentinesDay = [
       '1 misto frio',
       '1 lanche natural (pão australiano, queijo branco , peito de peru e salada)',
       '1 suco de laranja natural 300ml',
-      '1 amendoim japones',
+      '1 amendoim japonês',
       '1 salgadinho torcida',
       '1 salgado assado',
       '2 pão de queijo',
@@ -148,7 +148,7 @@ const promoValentinesDay = [
       '2 brigadeiros artesanais',
       'torrada',
       '2 brownies',
-      '1 capuccino em pó 100g',
+      '1 capucino em pó 100g',
     ],
     imgCard: 'img/cestaopresentcard.jpg',
     imgAbout: 'img/cestaopresentabout.jpg',
@@ -162,7 +162,7 @@ const promoValentinesDay = [
       '400g de creme de queijo',
       'pão australiano grande',
       'torradas temperadas',
-      'Box fondue sagado:',
+      'Box fondue salgado:',
       '-azeitonas',
       '-salame',
       '-queijo mussarela',
