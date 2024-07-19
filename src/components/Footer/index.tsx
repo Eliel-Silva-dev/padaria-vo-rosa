@@ -7,6 +7,9 @@ import style from './style.min.module.css';
 const Footer = () => {
   const [localStorage, setLocalStorage] = useState('');
 
+  const date = new Date()
+  const year = date.getFullYear();
+
   useEffect(() => {
     const lsContent = window.localStorage.getItem('lgpd');
     if (lsContent) {
@@ -25,10 +28,8 @@ const Footer = () => {
           Termos de uso
         </a>
       </p>
-      <p>
-        {' '}
-        &#9400 Desenvolvido por Hydrah Tecnologia - todos os direitos reservados
-      </p>
+      <p>Desenvolvido por Hydrah Tecnologia</p>
+      <p>&#9400; Todos os direitos reservados - {year}</p>
 
       {!localStorage && <Lgpd />}
     </footer>
