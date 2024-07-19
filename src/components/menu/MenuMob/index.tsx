@@ -38,19 +38,19 @@ const MenuDesk = () => {
       </div>
       <div id="masc" className={style.masc}></div>
       <ul id="links" className={style.link_container}>
-      <li>
-        <Link href={'/'}>Inicio</Link>
-      </li>
-      <li>
-        <Link href={'/ofertas'}>Ofertas</Link>
-      </li>
-      <li>
-        <Link href={'/pedidos'}>Pedidos</Link>
-      </li>
-      <li>
-        <Link href={'/sobre'}>Sobre</Link>
-      </li>
         <li>
+          <Link href={'/'}>Inicio</Link>
+        </li>
+        <li>
+          <Link href={'/ofertas'}>Ofertas</Link>
+        </li>
+        <li>
+          <Link href={'/pedidos'}>Pedidos</Link>
+        </li>
+        <li>
+          <Link href={'/sobre'}>Sobre</Link>
+        </li>
+        <li id={style.plus}>
           <PlusRec />
         </li>
       </ul>

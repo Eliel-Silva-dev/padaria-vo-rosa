@@ -11,10 +11,11 @@
   a {
     color: var(--text_color);
     padding: 10px;
-    display: inline-block;
     font-size: 2rem;
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+
     &:hover {
       color: var(--primary_color);
     }

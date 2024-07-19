@@ -9,8 +9,7 @@ const PlusRec = () => {
     <div className={style.plus_rec}>
       <Button>
         <Link href={`tel:${about.contact}`}>
-          <FaWhatsapp />
-          Pedido
+          <FaWhatsapp /> Pedido
         </Link>
       </Button>
     </div>
