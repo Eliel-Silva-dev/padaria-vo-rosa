@@ -1,12 +1,14 @@
 const about = {
   title: 'Vó Rosa bolos e Sobremesas',
   type: 'Padaria & Conveniência',
+  message:
+    'Especialista em Bolos caseiros, de aniversário e sobremesas. O melhor café da manhã da região do Matão-Sumaré!',
   address:
     'R. Maria C. de Sá, 22 - Loja A - Parque Progresso (Nova Veneza), Campinas - SP, 13180-180',
   imgHome: 'img/imgAbout.jpg',
   imgAbout: 'img/imgHome.jpg',
   imgMap: 'img/imgMap.jpg',
-  contact: '(19) 99266-5596',
+  contact: '+5519992665596',
   facebook: 'https://www.facebook.com/BolosVoRosa/',
   email: 'bolosvorosa@outlook.com',
   operation: [
@@ -66,6 +68,7 @@ const about = {
 export type Tabout = {
   title: string;
   type: string;
+  message: string;
   address: string;
   imgHome: string;
   imgAbout: string;

@@ -1,0 +1,26 @@
+.button {
+  background-color: var(--secondary_color);
+  color: var(--primary_color);
+  border: var(--hover);
+  border-radius: 10px;
+
+  &:hover {
+    background-color: var(--hover);
+  }
+
+  a {
+    color: var(--text_color);
+    padding: 10px;
+    display: inline-block;
+    font-size: 2rem;
+    display: flex;
+    
+    &:hover {
+      color: var(--primary_color);
+    }
+    svg {
+      font-size: 1.9rem;
+    }
+  }
+
+}

@@ -1,3 +1,42 @@
 .main {
-  text-decoration: none;
+  background-image: url('/img/imgHome.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  padding-inline-start: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+.header {
+  border: 2px solid var(--hover);
+  background-color: var(--primary_color);
+  width: 500px;
+  border-radius: 10px;
+  height: 40%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .title {
+  font-size: 3rem;
+  text-align: center;
+}
+.header .type {
+  font-size: 1.7rem;
+  color: var(--secondary_color);
+  font-weight: 600;
+}
+.header .message {
+  font-size: 2rem;
+  margin-top: 15px;
+  line-height: 40px;
+  text-align: justify;
+}
+.header .message a:first-child {
+  font-size: 1.7rem;
 }
