@@ -4,7 +4,9 @@
   align-items: center;
   padding: 15px;
   justify-content: stretch;
-  gap: 10px;
+  gap: 15px;
+  position: relative;
+  margin-top: 100px;
 
   section {
     background-color: #ffffffbe;
@@ -20,6 +22,40 @@
       font-size: 2rem;
       text-align: center;
       margin-bottom: 10px;
+    }
+  }
+  .select {
+    position: fixed;
+    margin: 0 auto;
+    background-color: var(--primary_color);
+
+    left: 15px;
+    right: 15px;
+    top: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 1.7rem;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+
+    select {
+      width: 65%;
+      font-size: 1.5rem;
+      text-align: center;
+      border-color: var(--secondary_color);
+      border-radius: 10px;
+      height: 30px;
+      outline-color: var(--hover);
+
+      &:focus {
+        border: 2px solid var(--hover);
+      }
+
     }
   }
 }
