@@ -16,13 +16,17 @@ const Ofertas = () => {
     <main className={style.ofertas}>
       <h2>Aproveite nossas Promoções</h2>
       <div className={style.container_promo}>
-        <ProductCard
-          nameProduct={'Titulo do produto'}
-          price={69}
-          id_prod={100}
-          srcImage={'/img/bolocococard.png'}
-          altImage={'foto bolo coco'}
-        />
+        {promo &&
+          promo.map((itempromo) => (
+            <ProductCard
+              key={itempromo.id}
+              nameProduct={itempromo.title}
+              price={itempromo.price}
+              id_prod={itempromo.id}
+              srcImage={itempromo.imgCard}
+              altImage={itempromo.title}
+            />
+          ))}
       </div>
     </main>
   );

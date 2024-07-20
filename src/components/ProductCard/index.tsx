@@ -1,6 +1,6 @@
 import ButtonDetails from '../buttons/ButtonDetails';
 import style from './style.min.module.css';
-
+import {formatCurrency} from '@/scripts';
 type TProductCard = {
   nameProduct: string;
   price: number;
@@ -20,7 +20,7 @@ const ProductCard = ({
     <div className={style.prod_card}>
       <div className={style.info}>
         <h3>{nameProduct}</h3>
-        <p>{price}</p>
+        <p>{formatCurrency(price)}</p>
         <ButtonDetails id_details={id_prod} />
       </div>
       <div className={style.img_prod_card}>

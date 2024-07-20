@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["scss/style.scss"],"names":[],"mappings":"AAAA,SACE,aAEA,YACE,eACA,kBAGF,0BACE,YACA,aACA,eACA,SACA,6BAEF,oBACE,8BACA,YACA,aACA,uBACA,mBACA,mBAEF,eACE,YACA,aACA,sBACA,8BACA,mBACA,YACA,SAEA,kBACE,eACA,kBAEF,iBACE,iBACA,gBAGJ,wBACE,UACA,aACA,YAEA,4BACE,WACA,YACA,6BACA","file":"style.min.module.css"}
+{"version":3,"sourceRoot":"","sources":["scss/style.scss"],"names":[],"mappings":"AAAA,SACE,aAEA,YACE,eACA,kBAGF,0BACE,YACA,aACA,eACA,SACA","file":"style.min.module.css"}

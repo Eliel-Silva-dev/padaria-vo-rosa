@@ -203,7 +203,7 @@ const promoValentinesDay = [
       'frutas da estação, e arranjo de flores secas',
       'Acompanha linda cesta em papel cartão',
     ],
-    imgCard: 'img/cestaloucosporchocolatecard',
+    imgCard: 'img/cestaloucosporchocolatecard.jpg',
     imgAbout: 'img/cestaloucosporchocolateabout.jpg',
     price: 139,
   },
