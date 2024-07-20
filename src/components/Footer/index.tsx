@@ -5,17 +5,18 @@ import Lgpd from '../Lgpd';
 import style from './style.min.module.css';
 
 const Footer = () => {
-  const [localStorage, setLocalStorage] = useState('');
+  const [localStorage, setLocalStorage] = useState(true);
 
-  const date = new Date()
+  const date = new Date();
   const year = date.getFullYear();
 
   useEffect(() => {
     const lsContent = window.localStorage.getItem('lgpd');
-    if (lsContent) {
-      setLocalStorage(`${lsContent}`);
+
+    if (!lsContent) {
+      setLocalStorage(false);
     }
-  }, [localStorage]);
+  }, []);
 
   return (
     <footer className={style.footer}>
