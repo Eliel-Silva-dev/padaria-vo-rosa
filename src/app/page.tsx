@@ -12,14 +12,14 @@ export default function Home() {
         <p className={style.type}>{about.type}</p>
         <p className={style.message}>{about.message}</p>
         <p className={style.message}>
-          Confira nosssas ofertas:
+          Confira nosssas ofertas:{' '}
           <Button>
             <Link href={'/ofertas'}>Ofertas</Link>
           </Button>
         </p>
         <p className={style.message}>
           <Button>
-            <Link href={`tel:${about.contact}`}>
+            <Link href={`tel:${about.contact}`} target="_blank">
               <FaWhatsapp />
               Faça agora seu pedido
             </Link>

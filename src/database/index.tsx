@@ -5,6 +5,7 @@ const about = {
     'Especialista em Bolos caseiros, de aniversário e sobremesas. O melhor café da manhã da região do Matão-Sumaré!',
   address:
     'R. Maria C. de Sá, 22 - Loja A - Parque Progresso (Nova Veneza), Campinas - SP, 13180-180',
+  googleMapAdd: 'https://maps.app.goo.gl/icMFVx2t4Q9UkcW29',
   imgHome: 'img/imgAbout.jpg',
   imgAbout: 'img/imgHome.jpg',
   imgMap: 'img/imgMap.jpg',
@@ -38,7 +39,7 @@ const about = {
     },
     {
       dayWeek: 'Domingo',
-      openingHours: '06:30–12:00',
+      openingHours: '06:30 - 12:00',
     },
   ],
   paymentMethods: [
