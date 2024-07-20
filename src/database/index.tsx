@@ -219,7 +219,7 @@ export type TpromoValentinesDay = {
 
 const options = [
   {
-    options: 'promoValentinesDay',
+    options: 'Promoção dia dos namorados',
     id: 30,
     itens: [
       {
@@ -337,7 +337,7 @@ const options = [
           'frutas da estação, e arranjo de flores secas',
           'Acompanha linda cesta em papel cartão',
         ],
-        imgCard: 'img/cestaloucosporchocolatecard',
+        imgCard: 'img/cestaloucosporchocolatecard.jpg',
         imgAbout: 'img/cestaloucosporchocolateabout.jpg',
         price: 139,
       },
@@ -383,8 +383,8 @@ const options = [
         Ingredients: [
           'Bolo no pote de Ninho: massa de Ninho molhadinho, com um delicioso recheio de creme de Ninho.',
         ],
-        imgCard: 'img/bolopoteninhoabout.jpg',
-        imgAbout: 'img/bolopoteninhocard.jpg',
+        imgCard: 'img/bolopoteninhocard.jpg',
+        imgAbout: 'img/bolopoteninhoabout.jpg',
         price: 10,
       },
     ],
@@ -406,7 +406,7 @@ const options = [
       },
       {
         id: 13,
-        title: 'Bolo de Chocolate Vulcão Nutella c/Morangos. Grande',
+        title: 'Bolo de Chocolate Nutella c/Morangos',
         Ingredients: [
           'Bolo de Chocolate, com o furo do bolo cheio de chocolate (vulcão) cheio de Nutella e cobertura de Nutella, com morangos.',
           'Serve 16 fatias.',
@@ -417,7 +417,7 @@ const options = [
       },
       {
         id: 14,
-        title: 'Bolo de chocolate c/ 2 coberturas ( dois amores) Grande',
+        title: 'Bolo de chocolate dois amores',
         Ingredients: [
           'Bolo super chocolatudo.',
           'Cobertura ganache de chocolate e creme de Ninho !!! 1,6 kg aprox.',
@@ -434,7 +434,7 @@ const options = [
     itens: [
       {
         id: 17,
-        title: 'PAO COM OVO',
+        title: 'Pão com ovo',
         Ingredients: ['Pão com manteiga na chapa e ovo frito'],
         imgCard: 'img/paocomovocard.jpg',
         imgAbout: 'img/paocomovoabout.jpg',
@@ -442,7 +442,7 @@ const options = [
       },
       {
         id: 18,
-        title: 'PAO COM MORTADELA',
+        title: 'Pão com mortadela',
         Ingredients: ['pão Francês /50grmortadela defumada'],
         imgCard: 'img/paocommortadelacard.jpg',
         imgAbout: 'img/paocommortadelaabout.jpg',

@@ -2,7 +2,6 @@
 
 import { options } from '@/database';
 import style from './style.min.module.css';
-import {} from 'next/router';
 import { useRouter, usePathname } from 'next/navigation';
 import ProductCard from '@/components/ProductCard';
 
