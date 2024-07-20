@@ -12,7 +12,7 @@ const MenuDesk = () => {
         <Link href={'/ofertas'}>Ofertas</Link>
       </li>
       <li>
-        <Link href={'/pedidos'}>Pedidos</Link>
+        <Link href={'/pedidos'}>Menu</Link>
       </li>
       <li>
         <Link href={'/sobre'}>Sobre</Link>
