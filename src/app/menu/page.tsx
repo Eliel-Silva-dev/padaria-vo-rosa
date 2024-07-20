@@ -4,6 +4,7 @@ import { options } from '@/database';
 import style from './style.min.module.css';
 import {} from 'next/router';
 import { useRouter, usePathname } from 'next/navigation';
+import ProductCard from '@/components/ProductCard';
 
 const Menu = () => {
   const listOptions = options;
@@ -20,75 +21,33 @@ const Menu = () => {
         <p>Opções: </p>
         <select onChange={(e) => redirectUrl(e.target.value)}>
           <option value="default">Escolha uma opção</option>
-          <option value="100">id 100</option>
-          <option value="400">id 400</option>
-          <option value="teste">teste</option>
-          <option value="500">id 500</option>
+          {listOptions.map((options) => (
+            <option key={options.id} value={`${options.id}`}>
+              {options.options}
+            </option>
+          ))}
         </select>
       </div>
-      <section id="100">
-        <h2 >Pagina de 100.....</h2>
-        <h2 >Pagina de 100.....</h2>
-        <h2 >Pagina de 100.....</h2>
-        <h2 >Pagina de 100.....</h2>
-        <h2 >Pagina de 100.....</h2>
-        <h2 >Pagina de 100.....</h2>
-        <h2 >Pagina de 100.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2 >Pagina de menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2 id="400">Pagina de 400.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2>Pagina de Menu.....</h2>
-      </section>
-      <section>
-        <h2 id="500">Pagina de 500.....</h2>
-      </section>
+
+      <div className={style.options}>
+        {listOptions.map((option) => (
+          <section key={option.id} id={`${option.id}`}>
+            <h2>{option.options}</h2>
+            <div className={style.container_prod}>
+              {option.itens.map((iten) => (
+                <ProductCard
+                  key={iten.id}
+                  nameProduct={iten.title}
+                  price={iten.price}
+                  id_prod={iten.id}
+                  srcImage={iten.imgCard}
+                  altImage={iten.title}
+                />
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
     </main>
   );
 };
