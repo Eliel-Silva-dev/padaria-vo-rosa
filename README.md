@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo apresentar, aos clientes, informações sobre o estabelecimento e sobre os produtos vendidos pela Padaria.
 
-[Visitar site]()
+[Visitar site](https://padaria-vo-rosa.vercel.app/)
 
 ### Lista com as funcionalidades:
 
