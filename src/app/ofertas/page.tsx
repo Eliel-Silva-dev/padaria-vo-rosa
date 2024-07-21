@@ -14,7 +14,7 @@ const Ofertas = () => {
 
   return (
     <main className={style.ofertas}>
-      <h2>Aproveite nossas Promoções</h2>
+      <h2>Aproveite nossas Promoções:</h2>
       <div className={style.container_promo}>
         {promo &&
           promo.map((itempromo) => (

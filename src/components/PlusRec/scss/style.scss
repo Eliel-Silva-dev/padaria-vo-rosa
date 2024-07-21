@@ -1,9 +1,17 @@
 .plus_rec {
-  min-width: 100px;
-  margin: 5px;
+  display: none;
+}
 
-  a {
+@media screen and (min-width: 769px) {
+  .plus_rec {
     display: flex;
-    align-items: center;
+    min-width: 200px;
+    margin: 5px;
+    justify-content: right;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
   }
 }
