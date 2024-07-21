@@ -221,7 +221,7 @@ const options = [
   {
     options: 'Promoção dia dos namorados',
     id: 30,
-    itens: [
+    items: [
       {
         id: 1,
         title: 'Box: Eu Te Amo',
@@ -347,7 +347,7 @@ const options = [
   {
     options: 'Os mais Baratos',
     id: 6,
-    itens: [
+    items: [
       {
         id: 7,
         title: 'Bombom Morango do Nordeste no Pote',
@@ -393,7 +393,7 @@ const options = [
   {
     options: 'Os Famosos - Bolos vulcão',
     id: 11,
-    itens: [
+    items: [
       {
         id: 12,
         title: 'Bolo Pistache Grande',
@@ -432,7 +432,7 @@ const options = [
   {
     options: 'Lanches na chapa',
     id: 16,
-    itens: [
+    items: [
       {
         id: 17,
         title: 'Pão com ovo',
@@ -462,7 +462,7 @@ const options = [
   {
     options: 'Tortas e baguetes recheados',
     id: 21,
-    itens: [
+    items: [
       {
         id: 22,
         title: 'Baguete de frango com requeijão',
@@ -498,7 +498,7 @@ const options = [
 export type Toptions = {
   options: string;
   id: number;
-  itens: {
+  items: {
     id: number;
     title: string;
     Ingredients: string[];

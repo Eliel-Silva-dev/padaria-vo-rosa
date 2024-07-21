@@ -12,7 +12,7 @@ export default function Home() {
         <p className={style.type}>{about.type}</p>
         <p className={style.message}>{about.message}</p>
         <p className={style.message}>
-          Confira nosssas ofertas:{' '}
+          Confira nossas ofertas:{' '}
           <Button>
             <Link href={'/ofertas'}>Ofertas</Link>
           </Button>

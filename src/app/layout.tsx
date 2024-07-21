@@ -9,12 +9,16 @@ import { Suspense } from 'react';
 
 import './globals.css';
 
-const lato = Manrope({ subsets: ['latin'], weight: ['400','600', '700', '800'] });
+const lato = Manrope({
+  subsets: ['latin'],
+  weight: ['400', '600', '700', '800'],
+});
 
 export const metadata: Metadata = {
   title: 'Padaria vo Rosa',
   description: 'Padaria e Conveniência vo rosa',
-  keywords: 'Padaria, Panificadora, Confeitaria, Pão fresco, Doces, Salgados, Bolos, Tortas, Lanches, Café da manhã',
+  keywords:
+    'Padaria, Panificadora, Confeitaria, Pão fresco, Doces, Salgados, Bolos, Tortas, Lanches, Café da manhã',
   icons: 'img/padaria-vo-rosa.svg',
   robots: 'index, follow',
   authors: [{ name: 'Eliel Silva', url: 'https://github.com/Eliel-Silva-dev' }],

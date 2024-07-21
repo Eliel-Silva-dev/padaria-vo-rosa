@@ -7,7 +7,6 @@ import Link from 'next/link';
 import PlusRec from '@/components/PlusRec';
 
 const MenuDesk = () => {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const hamburguerActive = () => {
     const contHamb = document.getElementById(
       'container_hamburguer'

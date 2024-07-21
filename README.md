@@ -1,6 +1,6 @@
-# Projeto Padaria vo Rosa
+# Projeto Padaria Vó Rosa
 
-Este projeto tem como objetivo apresentar, aos clientes, informações sobre o estabelecimento e sobre os produtos mais vendidos pela Padaria.
+Este projeto tem como objetivo apresentar, aos clientes, informações sobre o estabelecimento e sobre os produtos vendidos pela Padaria.
 
 [Visitar site]()
 
@@ -13,8 +13,6 @@ Este projeto tem como objetivo apresentar, aos clientes, informações sobre o e
 ### pontos importantes do projeto
 
 - Com o objetivo de deixar a página mais leve e melhorar a performance tomas algumas medidas como comprimir o tamanho das imagens e reduzir a dependência de recursos externos como o google maps( foi colocado uma imagem no lugar do iframe para reduzir a quantidade de dados ao carregar a página).
-- Foi adicionado recurso de 'voltar ao topo da página';
-- Trabalhei a responsividade do projeto com o objetivo de antecipar os breakpoints em resoluções menores.
 
 ## 🔧 Instalação
 

@@ -33,14 +33,14 @@ const Menu = () => {
           <section key={option.id} id={`${option.id}`}>
             <h2>{option.options}</h2>
             <div className={style.container_prod}>
-              {option.itens.map((iten) => (
+              {option.items.map((item) => (
                 <ProductCard
-                  key={iten.id}
-                  nameProduct={iten.title}
-                  price={iten.price}
-                  id_prod={iten.id}
-                  srcImage={iten.imgCard}
-                  altImage={iten.title}
+                  key={item.id}
+                  nameProduct={item.title}
+                  price={item.price}
+                  id_prod={item.id}
+                  srcImage={item.imgCard}
+                  altImage={item.title}
                 />
               ))}
             </div>

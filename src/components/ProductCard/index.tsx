@@ -1,6 +1,6 @@
 import ButtonDetails from '../buttons/ButtonDetails';
 import style from './style.min.module.css';
-import {formatCurrency} from '@/scripts';
+import { formatCurrency } from '@/scripts';
 type TProductCard = {
   nameProduct: string;
   price: number;
